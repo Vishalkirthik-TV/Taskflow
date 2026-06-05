@@ -149,13 +149,9 @@ The UI follows the **Neobrutalism** design trend:
 
 ## Assets & Demo
 
-- **Video demo:** embedded from the raw GitHub content URL. If GitHub does not render the player here, use the direct link.
+- **Video demo:** GitHub README may not render embedded video players consistently. Use this direct link to watch the demo:
 
-	<video controls width="800" style="max-width:100%; height:auto;">
-	  <source src="https://raw.githubusercontent.com/Vishalkirthik-TV/Taskflow/main/frontend/public/taskflow_video.mp4" type="video/mp4" />
-	  Your browser does not support the video tag. You can watch the demo directly here:
-	  [taskflow_video.mp4](https://raw.githubusercontent.com/Vishalkirthik-TV/Taskflow/main/frontend/public/taskflow_video.mp4)
-	</video>
+  [View demo video](https://raw.githubusercontent.com/Vishalkirthik-TV/Taskflow/main/frontend/public/taskflow_video.mp4)
 
 - **Screenshots:**
 
