@@ -1,6 +1,16 @@
 # TaskFlow - MERN Task Management App
 
+<p align="center">
+  <img src="frontend/src/assets/logo.png" width="160" alt="TaskFlow Logo" />
+</p>
+
 A full-stack task management application built with the MERN stack, featuring a **Neobrutalism** (Neo-Brutalist) UI design.
+
+## Preview
+
+![Login Page](frontend/src/assets/login.png)
+![Register Page](frontend/src/assets/register.png)
+![Dashboard](frontend/src/assets/app.png)
 
 ## Features
 
@@ -145,45 +155,29 @@ The UI follows the **Neobrutalism** design trend:
 
 ## Assets & Demo
 
-- **Video demo (recommended):** place your demo file at `frontend/public/demo.mp4` and link or embed it in the README. Example HTML embed for GitHub pages or raw HTML viewers:
+- **Video demo:** embedded from the local repo.
 
-	<video src="frontend/public/demo.mp4" controls width="800">Your browser does not support the video tag.</video>
+	<video src="frontend/public/taskflow_video.mp4" controls width="800">Your browser does not support the video tag.</video>
 
-	Or link to an externally hosted video (YouTube/Vimeo):
-
-	- Demo video: https://youtu.be/your-video-url
-
-- **Screenshots / Images:** add image assets to `frontend/src/assets` (logo, screenshots). Example Markdown to display a screenshot in this README:
+- **Screenshots:**
 
 	![Login Page](frontend/src/assets/login.png)
-	![Dashboard](frontend/src/assets/dashboard.png)
+	![Register Page](frontend/src/assets/register.png)
+	![Dashboard](frontend/src/assets/app.png)
 
-- **Logo:** put the project logo at `frontend/src/assets/logo.png` and reference it like this in the README or app header:
+- **Logo:**
 
 	![TaskFlow Logo](frontend/src/assets/logo.png)
 
-- **Where to put files**:
-	- Video: `frontend/public/demo.mp4` (for direct embedding) or host externally and link.
-	- Images: `frontend/src/assets/` (used by the frontend build).
+- **File locations:**
+	- Video: `frontend/public/taskflow_video.mp4`
+	- Screenshots: `frontend/src/assets/login.png`, `frontend/src/assets/register.png`, `frontend/src/assets/app.png`
+	- Logo: `frontend/src/assets/logo.png`
 
-- **How to add assets**:
-	1. Copy your `demo.mp4` to `frontend/public/`.
+- **How to update assets:**
+	1. Copy the video to `frontend/public/taskflow_video.mp4`.
 	2. Copy screenshots and logo to `frontend/src/assets/`.
-	3. Commit the files and push to your repo.
-
-	Example commands:
-
-	```powershell
-	cd frontend
-	mkdir -p public
-	copy path\to\demo.mp4 public\\demo.mp4
-	copy path\to\login.png src\\assets\\login.png
-	git add public/demo.mp4 src/assets/login.png src/assets/dashboard.png src/assets/logo.png
-	git commit -m "Add demo video and screenshots"
-	git push
-	```
-
-If you prefer not to commit large binary files, upload the demo video to YouTube or another host and place the public link above instead of a local file.
+	3. Commit and push the files.
 
 ## Author
 Vishalkirthik Thirukkonda
