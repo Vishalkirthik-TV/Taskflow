@@ -6,12 +6,6 @@
 
 A full-stack task management application built with the MERN stack, featuring a **Neobrutalism** (Neo-Brutalist) UI design.
 
-## Preview
-
-![Login Page](frontend/src/assets/login.png)
-![Register Page](frontend/src/assets/register.png)
-![Dashboard](frontend/src/assets/app.png)
-
 ## Features
 
 - **Authentication** — User registration and login with JWT
@@ -157,7 +151,11 @@ The UI follows the **Neobrutalism** design trend:
 
 - **Video demo:** embedded from the local repo.
 
-	<video src="frontend/public/taskflow_video.mp4" controls width="800">Your browser does not support the video tag.</video>
+	<video controls width="800" style="max-width:100%; height:auto;">
+	  <source src="frontend/public/taskflow_video.mp4" type="video/mp4" />
+	  Your browser does not support the video tag. You can watch the demo directly here:
+	  [taskflow_video.mp4](frontend/public/taskflow_video.mp4)
+	</video>
 
 - **Screenshots:**
 
